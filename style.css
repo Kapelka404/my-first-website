@@ -1,25 +1,51 @@
+/* Общие стили */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+    color: #444;
     margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
     padding: 20px;
 }
 
+/* Стили для заголовков */
 h1 {
     color: #2c3e50;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 p {
     font-size: 18px;
-    line-height: 1.6;
+    text-align: center;
+    margin-top: 20px;
 }
 
+/* Стили для ссылок */
 a {
     color: #3498db;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
 }
+
+/* Стили для футера */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+
