@@ -1,8 +1,8 @@
 /* Общие стили */
 body {
     font-family: 'Helvetica Neue', sans-serif;
-    background-color: #ffffff;
-    color: #444;
+    background-color: #f0f0f0;
+    color: #333;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -16,7 +16,7 @@ body {
 
 /* Стили для заголовков */
 h1 {
-    color: #2c3e50;
+    color: #e74c3c; /* Красный заголовок */
     text-align: center;
     margin-top: 50px;
     font-size: 36px;
@@ -48,4 +48,3 @@ footer {
     font-size: 14px;
     color: #999;
 }
-
